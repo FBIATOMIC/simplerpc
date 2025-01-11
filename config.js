@@ -11,7 +11,7 @@ function reloadPresence(client) {
         .setName('⚠◥◣_◢◤ "HACKER" ◥◣_◢◤⚠')
         .setDetails(`💢 "ATOMIC-Tier Hacker" 💢`)
         .setStartTimestamp(global.startTime)
-        .setAssetsLargeImage('https://tenor.googleapis.com/v2/media?id=8612986208442250283&format=optimizedgif&client_key=tenor_web&appversion=browser-r20250108-1&access_token=ya29.a0ARW5m74ZtIfx4CN1sRCM8nuvPDRd5EyASqnD6Kx5EQo-T665OC4ozX4zBQ0Q-RNS6e2wxSTpUdYColLa2PtGqxM7vkBWaxzDbnVshzpOAwPoMAsll5SK93jNOYGEAR0o_wR3C-ivbLXqvsszbqaCjCHGWwIHq4-O_KQaCgYKAdYSARASFQHGX2MiiSIEQtUkUXe1oAa-LbEz_g0170&key=AIzaSyC-P6_qz3FzCoXGLk6tgitZo4jEJ5mLzD8') //You can put links in tenor or discord and etc.
+        .setAssetsLargeImage('https://media.discordapp.net/attachments/1301227546251366424/1302578046599041024/0704.gif?ex=67839757&is=678245d7&hm=27ee8e9cd3f55f178cddd06fef5686b8d088f227b8d567a8cda5ae8d79008c14&=') //You can put links in tenor or discord and etc.
         .setAssetsLargeText('⚠ Classified as a national Threat ⚠') //Text when you hover the Large image
         .setAssetsSmallImage('Small Image URL') //You can put links in tenor or discord and etc.
         .setAssetsSmallText('Small Text') //Text when you hover the Small image
