@@ -28,7 +28,6 @@ function reloadPresence(client) {
         setAssetsLargeImage: 'https://i.imgur.com/uLmY6Lz.gif',
         buttons: [
             { name: '♠ "Illegal Video" ♠', link: 'https://www.youtube.com/watch?v=ovT5AcJFaMQ' },
-            { name: '⚠ "[YouTube Playlist]" ⚠', link: 'https://youtube.com/playlist?list=PLQBUreVNNjUgKhBL0eM-2Ak66xEuvsPAj&si=813wdMtDkjhK_pZb' },
         ],
     };
 
