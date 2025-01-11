@@ -38,7 +38,7 @@ function reloadPresence(client) {
         return; // Stop execution if validation fails
     }
 
-    const richPresence = new client.RichPresence()
+    const richPresence = new discord.RichPresence();
         .setApplicationId('1')
         .setType('STREAMING')
         .setURL(activity.setURL)
