@@ -3,7 +3,6 @@ const
  
 function reloadPresence(client) {
     const activity = new discord.RichPresence()
-      //more command https://discordjs-self-v13.netlify.app/#/docs/docs/main/class/RichPresence or https://github.com/aiko-chan-ai/discord.js-selfbot-v13/blob/main/Document/RichPresence.md
         .setApplicationId('1')
         .setType('STREAMING')
         .setURL('https://www.youtube.com/watch?v=ovT5AcJFaMQ') //Must be a youtube video link 
