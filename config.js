@@ -9,7 +9,7 @@ function reloadPresence(client) {
     .setURL('https://www.youtube.com/watch?v=ovT5AcJFaMQ') //Must be a youtube video link 
     .setState('☣ [King of Hackers] ☣')
     .setName('⚠◥◣_◢◤ "HACKER" ◥◣_◢◤⚠')
-    .setDetails(`💢 "ATOMIC-Tier Hacker" 💢 [${formatTime()}]`)
+    .setDetails(`💢 "ATOMIC-Tier Hacker" 💢`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://imgur.com/uLmY6Lz.gif') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('⚠ Classified as a national Threat ⚠') //Text when you hover the Large image
