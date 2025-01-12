@@ -11,7 +11,7 @@ function reloadPresence(client) {
         .setStartTimestamp(global.startTime);
 
     try {
-        activity.setAssetsLargeImage('https://i.imgur.com/uLmY6Lz.gif'); // Image link
+        activity.setAssetsLargeImage('https://media.discordapp.net/external/svmVyE9opeT6hU2NHgmVT6M8N2xK9M76D0Z9NuaOOUk/https/i.imgur.com/uLmY6Lz.gif'); // Image link
     } catch (error) {
         console.error("Invalid URL for large image:", error.message);
     }
