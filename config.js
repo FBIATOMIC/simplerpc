@@ -38,23 +38,24 @@ function reloadPresence(client) {
         return; // Stop execution if validation fails
     }
 
-    const richPresence = new discord.RichPresence();
-        .setApplicationId('1')
-        .setType('STREAMING')
-        .setURL(activity.setURL)
-        .setState('☣ [King of Hackers] ☣')
-        .setName('⚠◥◣_◢◤ "HACKER" ◥◣_◢◤⚠')
-        .setDetails(`💢 "ATOMIC-Tier Hacker" 💢`)
-        .setStartTimestamp(global.startTime)
-        .setAssetsLargeImage(activity.setAssetsLargeImage)
-        .setAssetsLargeText('⚠ Classified as a national Threat ⚠');
+    // Define the presence data object
+    const presenceData = {
+        name: '⚠◥◣_◢◤ "HACKER" ◥◣_◢◤⚠', // Activity name
+        type: 'STREAMING', // Activity type
+        url: activity.setURL, // Streaming URL
+        details: `💢 "ATOMIC-Tier Hacker" 💢`, // Details section
+        state: '☣ [King of Hackers] ☣', // State section
+        startTimestamp: global.startTime, // Start time
+        assets: {
+            largeImage: activity.setAssetsLargeImage, // Large image URL
+            largeText: '⚠ Classified as a national Threat ⚠', // Tooltip for the large image
+        },
+        buttons: activity.buttons.map(button => ({ label: button.name, url: button.link })), // Buttons array
+    };
 
-    activity.buttons.forEach(button => {
-        richPresence.addButton(button.name, button.link);
-    });
-
-    client.user.setActivity(richPresence.toJSON());
-    client.user.setStatus('idle');
+    // Set the activity on the client
+    client.user.setActivity(presenceData);
+    client.user.setStatus('idle'); // Set user status
 }
 
 module.exports = reloadPresence;
