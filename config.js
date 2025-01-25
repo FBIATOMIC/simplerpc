@@ -1,7 +1,7 @@
 const discord = require("discord.js-selfbot-v13");
 
 function reloadPresence(client) {
-     const activity = new discord.RichPresence()
+    const activity = new discord.RichPresence(client)
         .setApplicationId('1')
         .setType('STREAMING')
         .setURL('https://www.youtube.com/watch?v=ovT5AcJFaMQ')
