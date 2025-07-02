@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:translateX="10.8"
+        android:translateY="10.8">
+        <!-- Play button -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M40,30L40,70L70,50Z" />
+        <!-- Circle around play button -->
+        <path
+            android:strokeWidth="3"
+            android:strokeColor="#FFFFFF"
+            android:fillColor="@android:color/transparent"
+            android:pathData="M54,54m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0" />
+        <!-- Letter H -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M20,20L20,40L24,40L24,32L28,32L28,40L32,40L32,20L28,20L28,28L24,28L24,20Z" />
+        <!-- Letter A -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M76,20L76,40L80,40L80,32L84,32L84,40L88,40L88,20L84,20L84,28L80,28L80,20Z" />
+    </group>
+</vector>
