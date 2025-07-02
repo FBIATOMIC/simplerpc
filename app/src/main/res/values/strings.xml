@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HiAnime Viewer</string>
+    <string name="loading">Loading...</string>
+    <string name="external_redirect_blocked">External redirect blocked</string>
+    <string name="popup_blocked">Popup blocked</string>
+</resources>
